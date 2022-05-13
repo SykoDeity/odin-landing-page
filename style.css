@@ -1,4 +1,4 @@
-/*Change to alternate box model*/
+/* Change to alternate box model */
 html {
   box-sizing: border-box;
 }
@@ -7,13 +7,14 @@ html {
 *:after {
   box-sizing: inherit;
 }
-/*Change to alternate box model*/
+/* Change to alternate box model */
 
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
 }
 
+/* Heading Section */
 .header {
   background-color: #1f2937;
   color: #e5e7eb;
@@ -43,3 +44,4 @@ a {
   text-decoration: none;
   color: #e5e7eb;
 }
+/* Hero Section */
