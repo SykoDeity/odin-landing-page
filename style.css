@@ -93,6 +93,7 @@ a {
 /* Section Two */
 .two {
   align-self: center;
+  flex: 1;
 }
 
 .sec-two {
@@ -121,6 +122,32 @@ a {
   margin-top: 4px;
   max-width: 150px;
   color: #5b646c;
+}
+
+/* Testimonial Section */
+.testimonial {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  flex: 1;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.quote-author {
+  align-self: flex-end;
+  color: #1f2937;
+  font-weight: bold;
+  margin-top: 0;
+  padding-right: 25px;
 }
 
 /* Footer Section */
