@@ -22,6 +22,7 @@ body {
 .header {
   background-color: #1f2937;
   color: #e5e7eb;
+  padding: 50px 200px 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -52,33 +53,35 @@ a {
 /* Hero Section */
 .hero {
   background-color: #1f2937;
+  padding: 0 200px 100px;
   display: flex;
+  justify-content: center;
   align-items: center;
-  flex: 1;
+}
+
+.hero-container {
 }
 
 .hero-title {
   margin-bottom: 5px;
+  margin-right: 0;
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
+  max-width: 60%;
 }
 
 .hero-subtitle {
-  margin: 0px 0px 10px 0px;
+  margin-bottom: 10px;
+  margin-right: 0;
   font-size: 18px;
   color: #e5e7eb;
-}
-
-.hero-container {
-  flex: 1;
-  padding: 10px;
+  max-width: 60%;
 }
 
 .hero-image {
-  max-width: 400px;
   padding: 10px;
-  flex: 1;
+  align-self: flex-start;
 }
 
 .btn {
@@ -92,6 +95,7 @@ a {
 
 /* Section Two */
 .two {
+  padding: 50px 200px 100px;
   align-self: center;
   flex: 1;
 }
@@ -104,9 +108,10 @@ a {
 }
 
 .sec-two-container {
+  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
-  gap: 48px;
+  gap: 60px;
 }
 
 .info {
@@ -126,9 +131,9 @@ a {
 
 /* Testimonial Section */
 .testimonial {
+  padding: 50px 400px 100px;
   background-color: #e5e7eb;
   color: #1f2937;
-  flex: 1;
 }
 
 .quote-container {
@@ -151,11 +156,16 @@ a {
 }
 
 /* End Section */
+.end {
+  padding: 100px 300px;
+}
+
 .cta {
   background-color: #3882f6;
   color: #e5e7eb;
-  margin: 32px 0;
-  border-radius: 4px;
+  margin: 32px 100px;
+  padding: 52px 48px;
+  border-radius: 8px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -170,6 +180,7 @@ a {
 }
 
 .btn.calltoaction {
+  font-weight: bold;
   border: 2px solid #e5e7eb;
 }
 
