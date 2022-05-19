@@ -164,12 +164,14 @@ a {
 .cta {
   background-color: #3882f6;
   color: #e5e7eb;
-  margin: 32px 100px;
   padding: 52px 48px;
   border-radius: 8px;
+  margin: 0 auto;
+  width: 1000px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  gap: 100px;
 }
 
 .cta-title {
